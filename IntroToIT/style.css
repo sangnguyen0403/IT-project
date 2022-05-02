@@ -863,8 +863,7 @@ nav .fa-bars{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 10px 0px;
-    border-top: 1px solid #333;
+    padding: 20px 0px;
     border-bottom: 1px solid #333;
 }
 
@@ -1074,4 +1073,29 @@ nav .fa-bars{
     transition: ease .30s;
     outline: none;
     border: none;
+}
+
+.property_list{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 30px;
+}
+
+.property_detail{
+    display: flex;
+    align-items: center;
+}
+
+.property_detail span{
+    margin: 0 20px;
+}
+
+.property_container{
+    display: block;
+}
+
+.property_title{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom:30px;
 }
