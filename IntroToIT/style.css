@@ -1053,7 +1053,7 @@ nav .fa-bars{
 .rating h4{
     font-size: 25px;
     flex: 1;
-    margin: 10px 10px;
+    margin: 10px 0;
     color: #ff5361
 }
 
@@ -1073,6 +1073,12 @@ nav .fa-bars{
     transition: ease .30s;
     outline: none;
     border: none;
+    transition: ease .30s;
+    cursor: pointer;
+}
+
+.rating button:hover{
+    transform: translateY(-5px);
 }
 
 .property_list{
@@ -1098,4 +1104,9 @@ nav .fa-bars{
     font-size: 26px;
     font-weight: 700;
     margin-bottom:30px;
+}
+
+.house_desc-title{
+    margin: 10px 0;
+    font-size: 25px;
 }
