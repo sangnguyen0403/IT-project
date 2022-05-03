@@ -27,12 +27,13 @@
             <div class="container">
                 <h1>Find Your Next House </h1>
                 <div class="search_bar">
-                    <form action="">
+                    <form action="/listing.html" autocomplete="off">
                         <div class="location-input">
                             <label>Location</label>
-                            <input type="text" placeholder="Where are you going?">
-                        </div>
-
+                            <input class="location_input" id="input" type="text" placeholder="Where are you going?">
+                        </div>              
+                        <ul class="list"></ul>
+                        
                         <div class="other-input">
                             <label>Check In</label>
                             <input type="date" placeholder="Add Date">
@@ -48,8 +49,9 @@
                             <input type="text" placeholder="Add Guest">
                         </div>
 
+                       
                         <button type="submit"><img src="images/search.png" alt=""></button>
-
+                
                     </form>
                 </div>
             </div>
@@ -148,7 +150,7 @@
 
                 <div>
                     <img src="images/phillipin.webp" alt="">
-                    <h3>Phillipin</h3>
+                    <h3>Philippines</h3>
                 </div>
 
                 <div>
@@ -225,6 +227,8 @@
         }
 
     </script>
+
+    <script src="/script.js"></script>
 
     </body>
 </html>

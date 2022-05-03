@@ -93,6 +93,7 @@ nav{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .search_bar form input{
@@ -116,6 +117,8 @@ nav{
     width: 15px;
     margin-top: 7px;
 }
+
+
 
 .location-input{
     flex: 1;
@@ -1114,3 +1117,20 @@ nav .fa-bars{
     margin: 10px 0;
     font-size: 25px;
 }
+
+.list{
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    background: white;
+    border-radius: 0 0 5px 5px;
+    z-index: 10;
+}
+
+.list-items {
+    padding: 10px 5px;
+  }
+
+.list-items:hover {
+    background-color: #dddddd;
+  }
