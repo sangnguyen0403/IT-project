@@ -831,6 +831,10 @@ nav .fa-bars{
     border-radius: 10pxl
 }
 
+.house_info a{
+    text-decoration: none;
+}
+
 .img_1{
     grid-area: first;
 }
